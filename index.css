@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #070346;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    color: #fff;
+}
+
+.hero {
+    width: 100%;
+    min-height: 90vh;
+    background-image: url("./Assets/backround.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #070346;
+    gap: 20px;
+}
+
+.on-btn {
+    padding: 10px;
+    color: #fff;
+    background-color: #070346;
+    border-radius: 12px;
+}
